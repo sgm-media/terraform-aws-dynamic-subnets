@@ -69,3 +69,4 @@ variable "map_public_ip_on_launch" {
   description = "Instances launched into a public subnet should be assigned a public IP address"
 }
 
+variable "region" { type = string }
